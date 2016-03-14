@@ -21,12 +21,6 @@ def show_post(post_id):
     # show the post with the given id, the id is an integer
     return 'Post %d' % post_id
 
-# 一直显示错误，原因未知
-# @app.route('/hello/<name>')
-# def hello(name=None):
-#     # return render_template('hello.html',name=name)
-#     return 'Hello World'
-
 # 确保该服务器只在python解释器执行的时候才会运行
 if __name__ == '__main__':
     # run函数运行
